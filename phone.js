@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$("#content_dialer").show();
+	$("#content_list").hide();
+	$("#add_content").hide();
+});
+$("#contact_list").click(function(){
+	$("#content_dialer").hide();
+	$("#content_list").show();
+	$("#add_content").hide();
+});
+$("#add_contact").click(function(){
+	$("#content_dialer").hide();
+	$("#content_list").hide();
+	$("#add_content").show();
+});
+$("#dialer").click(function(){
+	$("#content_dialer").show();
+	$("#content_list").hide();
+	$("#add_content").hide();
+});
