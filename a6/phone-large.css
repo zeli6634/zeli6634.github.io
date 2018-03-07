@@ -1,0 +1,19 @@
+/*some code cited from assignment description: https://shaunkane.github.io/csci4849-spring2018/a1-gui/*/
+button {width: 160px; height: 120px; background: black; color: white; margin: 10px;}
+body {background-color: black;}
+body, button {font-size: 200%;}
+
+#dialer {width: 210px; height: 120px;}
+#contact_list {width: 400px; height: 120px;}
+#add_contact {width: 400px; height: 120px;}
+#about {width: 650px; height: 120px;}
+#dial_button {width: 150px; height: 100px;}
+#clear_button {width: 150px; height: 100px;}
+#phone_number {width: 300px; height: 40px;}
+#addcontact {width: 400px; height: 80px;}
+#addclear {width: 200px; height: 80px;}
+#content_list {width: 200px; height: 80px;}
+#phone_number {background-color: black; color: white; font-size: 200%; width: 600px; height: 70;}
+#name {background-color: black; color: white; font-size: 200%; width: 600px; height: 70;}
+#phonenumber {background-color: black; color: white; font-size: 200%; width: 600px; height: 70;}
+#email {background-color: black; color: white; font-size: 200%; width: 600px; height: 70;}

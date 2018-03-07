@@ -1,0 +1,93 @@
+<!-- some code cited from assignment description: https://shaunkane.github.io/csci4849-spring2018/a1-gui/ -->
+<html>
+  <head>
+    <title>index</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="phone.css">
+  </head>
+  <body>
+    <div class="tab_class" id="tab_bar">
+      <button class="tab_class" id="dialer">Dialer</button>
+      <button class="tab_class" id="contact_list">Contact List</button>
+      <button class="tab_class" id="add_contact">Add Contact</button>
+      <button class="tab_class" id="about">About this Project</button>
+    </div>
+
+    <div class="content_class" id="content">
+      <div class="dialer_class" id="content_dialer">
+        Dialer<br />
+        <p><input class="dialer_class" id="phone_number"/></p>
+          <button class="dialer_class" id="1">1</button>
+          <button class="dialer_class" id="2">2</button>
+          <button class="dialer_class" id="3">3</button>
+        <br />
+          <button class="dialer_class" id="4">4</button>
+          <button class="dialer_class" id="5">5</button>
+          <button class="dialer_class" id="6">6</button>
+        <br />
+          <button class="dialer_class" id="7">7</button>
+          <button class="dialer_class" id="8">8</button>
+          <button class="dialer_class" id="9">9</button>
+        <br />
+          <button class="dialer_class" id="star_key">*</button>
+          <button class="dialer_class" id="0">0</button>
+          <button class="dialer_class" id="pound_key">#</button>
+        <br />
+          <button class="dialer_class" id="dial_button">dial</button>
+          <button class="dialer_class" id="clear_button">clear</button>
+      </div>
+
+      <div class="list_class" id="contentlist">
+        <p>Contact List</p>
+        <div class="list_class" id="contentlist">
+          <button class="list_class" id="content_list">Jack</button>
+          <button class="list_class" id="content_list">Bob</button>
+          <button class="list_class" id="content_list">Frank</button>
+        </div>
+      </div>
+
+      <div class="add_class" id="add_content">
+        <p>Add Contact</p>
+
+        <div class="add_class" id="add_content">
+          Name
+          <br />
+          <input class="add_class" id="name"/>
+          <br />
+
+          Phone Number
+          <br />
+          <input class="add_class" id="phonenumber"/>
+          <br />
+
+          Email Address
+          <br />
+          <input class="add_class" id="email"/>
+          <br />
+
+          <p>
+          <button class="add_class" id="addcontact">Add Contact</button>
+          <button class="add_class" id="addclear">Clear</button>
+          </p>
+        </div>
+      </div>
+
+      <div class="about_class" id="about_this">
+        <p>About this Project</p>
+        From the magnifier, I learned how to use the magnifier on Mac. I tried the zoom for
+        multiple times. I am a high myopia person, so I tried the zoom for 200%. Although
+        I still cannot see things very clear without, but it definitely clearer than normal
+        mode. So I tried my best to remember the command in order to use it in the future.<br /><br />
+        For the low vision mode, I made the modification for the font size, color of text, the size
+        of the input box and button, and the background color. The style is different than the normal
+        mode, but most of the layout are the same.
+
+      </div>
+    </div>
+
+    <div id="lowvision"><a href="index-large.html">Low Vision Mode</a></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="phone.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+/*some code cited from assignment description: https://shaunkane.github.io/csci4849-spring2018/a1-gui/*/
+button {width: 80px; height: 60px; background: blue; color: white; margin: 10px;}
+
+#dialer {width: 170px; height: 60px;}
+#contact_list {width: 170px; height: 60px;}
+#add_contact {width: 170px; height: 60px;}
+#about {width: 200px; height: 60px;}
+#dial_button {width: 134px; height: 60px;}
+#clear_button {width: 134px; height: 60px;}
+#phone_number {width: 300px; height: 40px;}
+#addcontact {width: 170px; height: 60px;}
+#addclear {width: 170px; height: 60px;}
