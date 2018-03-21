@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>For this app, the version of interface are 3 keys and 5 keys, and the part of body are head and hand. The instruction is
+			that i: move up, k: move down, j: move left, l: move right and g: click the button. The 3 keys are g, j and l keys. The 5 keys
+			are j, k, l, i and g keys. The default place for the key is at button 7. Compared with these two version, I am trying to do the same tasks: 1+2-3+4-5+6-7+8-9+0=C, 1*2/3*4/5*6/7*8/9*0=C,
+			7+4-1+0-8+5-2+9-6+3=C, 7*4/1*0/8*5/2*9/6*3=C and 7+5-3+8-6+9-4+2-1+0=C. All the tasks start at the same place: button 7.
+			For 3 keys the time are: 40 seconds, 42 seconds, 43 seconds, 42 seconds and 45 seconds. For 5 keys the time are: 26 seconds, 24 seconds,
+			25 seconds, 24 seconds, 28 seconds. All the test I am using by hand. These is no error when I do these two tests. In conclusion, 5 keys are faster than 3 keys. Compared with head and hand,
+			I cannot finished these tasks by head because if I use my head to click the keyboard, it will also click other keys on the keyboard. There are too many errors when I do the test. In conclusion,
+			using different body part can highly affect the test result. The body part I am not often used is making more mistakes.
+		  </p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
